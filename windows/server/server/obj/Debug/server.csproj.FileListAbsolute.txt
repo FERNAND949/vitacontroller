@@ -1,0 +1,10 @@
+C:\Users\shino\Documents\server\server\bin\Debug\server-unsigned\Application\app.info
+C:\Users\shino\Documents\server\server\bin\Debug\server-unsigned\Application\app.exe
+C:\Users\shino\Documents\server\server\bin\Debug\server-unsigned\Application\app.exe.mdb
+C:\Users\shino\Documents\server\server\bin\Debug\server-signed\Application\app.info
+C:\Users\shino\Documents\server\server\bin\Debug\server-signed\Application\app.exe
+C:\Users\shino\Documents\server\server\bin\Debug\server-signed\Application\app.exe.mdb
+C:\Users\shino\Documents\server\server\bin\Debug\server.psdp
+C:\Users\shino\Documents\server\server\obj\Debug\convertedpdb\app.exe.mdb
+C:\Users\shino\Documents\server\server\obj\Debug\app.exe
+C:\Users\shino\Documents\server\server\obj\Debug\app.pdb

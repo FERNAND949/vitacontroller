@@ -1,0 +1,6 @@
+C:\Users\shino\Documents\server\server\bin\Release\server-unsigned\Application\app.info
+C:\Users\shino\Documents\server\server\bin\Release\server-unsigned\Application\app.exe
+C:\Users\shino\Documents\server\server\bin\Release\server-signed\Application\app.info
+C:\Users\shino\Documents\server\server\bin\Release\server-signed\Application\app.exe
+C:\Users\shino\Documents\server\server\bin\Release\server.psdp
+C:\Users\shino\Documents\server\server\obj\Release\app.exe
