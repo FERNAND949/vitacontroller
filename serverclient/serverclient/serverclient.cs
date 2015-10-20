@@ -21,6 +21,7 @@ namespace Client01
 		private static String server;
 		private static TcpClient client;
 		private static Byte[] data;
+		private static NetworkStream stream;
 		
 
         public static void Main()
@@ -32,7 +33,7 @@ namespace Client01
 				SystemEvents.CheckEvents();
 				GamepadRender();
 				SampleDraw.Update();
-				if(command != 0) CommandTransport(command);
+				if(command != 0)CommandTransport(command);
 				if(command == GamePadButtons.Down) break;
 			}
 			
@@ -44,10 +45,12 @@ namespace Client01
 		public static void Init(){
 			
 			port = 9999;
-			server = "00000000";// ここにipアドレスを入れる
+			server = "192.168.0.17";// ここにipアドレスを入れる
 			graphics = new GraphicsContext();
 			SampleDraw.Init(graphics);
 			data = new byte[256];
+			client = new TcpClient(server,port);
+			stream = client.GetStream();
 		}
 		
 		public static bool GamepadRender(){
@@ -102,11 +105,11 @@ namespace Client01
 		
 		private static void CommandTransport(GamePadButtons button){
 			
-			client = new TcpClient(server,port);
+			//client = new TcpClient(server,port);
             data   = BitConverter.GetBytes((uint)button);
 			
 			// 通信ストリームの取得
-			NetworkStream stream = client.GetStream();
+			//NetworkStream stream = client.GetStream();
 			
 			// サーバーへ通信
 			stream.Write( data, 0, data.Length );
