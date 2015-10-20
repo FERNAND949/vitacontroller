@@ -45,7 +45,7 @@ namespace Client01
 		public static void Init(){
 			
 			port = 9999;
-			server = "192.168.0.17";// ここにipアドレスを入れる
+			server = "192.168.0.0";// ここにipアドレスを入れる
 			graphics = new GraphicsContext();
 			SampleDraw.Init(graphics);
 			data = new byte[256];
